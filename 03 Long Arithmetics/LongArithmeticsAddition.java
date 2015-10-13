@@ -73,7 +73,7 @@ public class LongArithmeticsAddition {
         // когда перенос обработали, а цифры еще есть,
         // просто их копируем в результат
         while (size < leftSize) {
-            result[size] = number2[size];
+            result[size] = forResult[size];
             size++;
         }
 
