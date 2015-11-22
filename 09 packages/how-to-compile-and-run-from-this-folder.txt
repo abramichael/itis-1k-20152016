@@ -1,0 +1,12 @@
+javac -d bin src\ru\kpfu\itis\group501\IntArray.java
+(java -d bin -classpath bin ru.kpfu.itis.group501.IntArray)
+
+javac -d bin -classpath bin src\ru\kpfu\itis\group501\io\SuperScanner.java
+
+javac -classpath bin Main.java (плохой случай, т.к. Main не в пакете)
+
+java -classpath bin;. Main (добавляет текущую папку - . - в classpath, чтобы Main нашелся - т.к. ищем в bin, а в нем Main-а нет)
+
+Но если используете пакеты, избегайте файлов, которые не лежат в пакетах.
+
+
