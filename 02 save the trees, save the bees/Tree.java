@@ -6,6 +6,7 @@ import java.util.Stack;
  * Created by ma on 30.03.2016.
  */
 public class Tree {
+	// this is the root of my tree
     private Node root;
 
     public Tree(int n) {
